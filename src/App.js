@@ -1,7 +1,7 @@
 
 import './App.css';
 
-function App({text}) {
+const App = ({text}) =>{
   return (
     <div>
         {'Componente'+ text}
