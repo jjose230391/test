@@ -1,12 +1,12 @@
 
 import './App.css';
 
-const App = ({text}) =>{
+const Main = ({text}) =>{
   return (
     <div>
-        {'Componente'+ text}
+        {'Componente'+ (text || '')}
     </div>
   );
 }
 
-export default App;
+export default Main;
